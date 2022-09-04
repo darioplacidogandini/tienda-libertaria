@@ -1,4 +1,5 @@
 import './App.css';
+import CardComponent from './component/card.component';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p>
           Tienda Libertaria Corrientes
         </p>
+        <CardComponent/>
       </header>
     </div>
   );
