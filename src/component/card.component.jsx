@@ -7,7 +7,7 @@ const CardComponent = () => {
         <div class="card-body">
         <h5 class="card-title">TITULO PRODUCTO</h5>
         <p class="card-text">Descripcion del producto</p>
-        <p class="card-text">$1200</p>
+        <p class="card-text">$400</p>
         </div>
         </div>
     )
