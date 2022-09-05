@@ -13,7 +13,7 @@ function CardComponent() {
                     <div class="card-body"></div>
                         <h5 class="card-title">{products.product}</h5>
                         <p class="card-text">{products.description}</p>
-                        <p class="card-text">{products.price}</p>
+                        <p class="card-text">${products.price}</p>
                     </div>
                     </div>
             ))}
