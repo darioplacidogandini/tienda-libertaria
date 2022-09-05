@@ -2,9 +2,14 @@ import CardComponent from '../component/card.component';
 
 const ProductsContainer = () => {
     return (
-        CardComponent,
-        CardComponent,
-        CardComponent
+        <div className='container'>
+            <div class="row">
+                <CardComponent/>
+                <CardComponent/>
+                <CardComponent/>
+                <CardComponent/>
+            </div>
+        </div>
     )
 }
 
