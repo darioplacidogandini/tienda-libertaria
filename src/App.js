@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CardComponent from './component/card.component';
+import ProductsContainer from './container/products.container';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <p>
           Tienda Libertaria Corrientes
         </p>
-        <CardComponent/>
+        <ProductsContainer/>
       </header>
     </div>
   );
