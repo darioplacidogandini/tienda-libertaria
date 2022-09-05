@@ -6,8 +6,10 @@ const ProductsContainer = () => {
     return (
         <div className='container'>
             <div class="row">
-            {products.map((products)=>(
-                <CardComponent/>
+            {products.map((products,id)=>(
+                <div key={id} className="col-4">
+                    <CardComponent products={products}/>
+                </div>
             ))}
             </div>
         </div>
