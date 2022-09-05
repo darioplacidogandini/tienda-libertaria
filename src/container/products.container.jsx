@@ -8,6 +8,14 @@ const ProductsContainer = () => {
                 <CardComponent/>
                 <CardComponent/>
                 <CardComponent/>
+                <CardComponent/>
+                <CardComponent/>
+                <CardComponent/>
+                <CardComponent/>
+                <CardComponent/>
+                <CardComponent/>
+                <CardComponent/>
+                <CardComponent/>
             </div>
         </div>
     )
