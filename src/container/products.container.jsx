@@ -5,17 +5,6 @@ const ProductsContainer = () => {
         <div className='container'>
             <div class="row">
                 <CardComponent/>
-                <CardComponent/>
-                <CardComponent/>
-                <CardComponent/>
-                <CardComponent/>
-                <CardComponent/>
-                <CardComponent/>
-                <CardComponent/>
-                <CardComponent/>
-                <CardComponent/>
-                <CardComponent/>
-                <CardComponent/>
             </div>
         </div>
     )

@@ -1,16 +1,25 @@
-import productImage from '../assets/producto.jpg'
+import data from '../assets/products.json'
 
-const CardComponent = () => {
+function CardComponent() {
+    const products = data.products;
+
     return (
-        <div class="card col-4">
-        <img src={productImage} class="card-img-top" alt="Imagen del producto"/>
-        <div class="card-body">
-        <h5 class="card-title">TITULO PRODUCTO</h5>
-        <p class="card-text">Descripcion del producto</p>
-        <p class="card-text">$400</p>
+        <div className='container'>
+            <div className='products'>
+            {products.map((products)=>(
+                <div className='products'>
+                    <div class="card">
+                    <img src={products.image} class="card-img-top" alt="Imagen del producto"/>
+                    <div class="card-body"></div>
+                        <h5 class="card-title">{products.product}</h5>
+                        <p class="card-text">{products.description}</p>
+                        <p class="card-text">{products.price}</p>
+                    </div>
+                    </div>
+            ))}
+            </div>
         </div>
-        </div>
-    )
+    );
 }
 
 export default CardComponent;

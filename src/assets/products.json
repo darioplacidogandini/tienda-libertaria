@@ -1,0 +1,32 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "product": "Dije Milei 2023",
+            "description": "Ideal para colgar",
+            "image": "https://drive.google.com/file/d/1Y0RGvlCkf5ZZ9-S1X1uMmrU-UmB0aLzk/view?usp=sharing",
+            "price": 450
+        },
+        {
+            "id": 2,
+            "product": "Llavero Milei 2023",
+            "description": "Dimensiones 40x40cm",
+            "image": "https://drive.google.com/file/d/1Y0RGvlCkf5ZZ9-S1X1uMmrU-UmB0aLzk/view?usp=sharing",
+            "price": 400
+        },
+        {
+            "id": 3,
+            "product": "Mate Milei",
+            "description": "Incluye bombilla",
+            "image": "https://drive.google.com/file/d/1Y0RGvlCkf5ZZ9-S1X1uMmrU-UmB0aLzk/view?usp=sharing",
+            "price": 1200
+        },
+        {
+            "id": 4,
+            "product": "Lapicero Milei",
+            "description": "",
+            "image": "https://drive.google.com/file/d/1Y0RGvlCkf5ZZ9-S1X1uMmrU-UmB0aLzk/view?usp=sharing",
+            "price": 200
+        }
+    ]
+}
