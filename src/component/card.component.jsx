@@ -3,7 +3,7 @@ import productImage from '../assets/producto.jpg'
 const CardComponent = () => {
     return (
         <div class="card col-4">
-        <img id='product-image' src={productImage} class="card-img-top" alt="Imagen del producto"/>
+        <img src={productImage} class="card-img-top" alt="Imagen del producto"/>
         <div class="card-body">
         <h5 class="card-title">TITULO PRODUCTO</h5>
         <p class="card-text">Descripcion del producto</p>
