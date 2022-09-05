@@ -8,7 +8,7 @@ function CardComponent() {
             <div className='products'>
             {products.map((products)=>(
                 <div className='products'>
-                    <div class="card">
+                    <div class="card col-sm">
                     <img src={products.image} class="card-img-top" alt="Imagen del producto"/>
                     <div class="card-body"></div>
                         <h5 class="card-title">{products.product}</h5>
