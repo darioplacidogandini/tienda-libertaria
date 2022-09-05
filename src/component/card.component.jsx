@@ -1,4 +1,4 @@
-import productImage from '/src/assets/producto.jpg'
+import productImage from '../assets/producto.jpg'
 
 const CardComponent = () => {
     return (
