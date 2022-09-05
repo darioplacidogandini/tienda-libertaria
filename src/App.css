@@ -1,31 +1,21 @@
+.card {
+  height: 600px;
+}
+
+.card-img-top {
+  width: 300px;
+  margin: 10px;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  height: 100px;
+  width: 100px;
 }
 
 .App-header {
-  background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
+  height: 200px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-
