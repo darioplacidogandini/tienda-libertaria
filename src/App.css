@@ -1,12 +1,3 @@
-.card {
-  height: 600px;
-}
-
-.card-img-top {
-  width: 200px;
-  margin: 5px;
-}
-
 .App {
   text-align: center;
 }
@@ -19,3 +10,5 @@
 .App-header {
   height: 200px;
 }
+
+ 
