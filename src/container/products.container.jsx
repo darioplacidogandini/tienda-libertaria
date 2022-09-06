@@ -5,9 +5,9 @@ const ProductsContainer = () => {
     const products = data.products;
     return (
         <div className='container'>
-            <div class="row">
+            <div className="row">
             {products.map((products,id)=>(
-                <div key={id} className="col-4">
+                <div key={id}>
                     <CardComponent products={products}/>
                 </div>
             ))}
