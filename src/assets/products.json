@@ -2,15 +2,15 @@
     "products": [
         {
             "id": 1,
-            "product": "Dije Milei 2023",
-            "description": "Ideal para colgar",
+            "product": "Llavero redondo grande Milei 2023",
+            "description": "Dimensiones 60x60cm",
             "image1": "https://drive.google.com/uc?export=view&id=1Y0RGvlCkf5ZZ9-S1X1uMmrU-UmB0aLzk",
             "image2": "https://drive.google.com/uc?export=view&id=1Y0RGvlCkf5ZZ9-S1X1uMmrU-UmB0aLzk",
             "price": 400
         },
         {
             "id": 2,
-            "product": "Llavero Milei 2023",
+            "product": "Llavero redondo chico Milei 2023",
             "description": "Dimensiones 40x40cm",
             "image1": "https://drive.google.com/uc?export=view&id=1XC3yCgqdIe0TxbvJcjrBQLqbUELOOXW4",
             "image2": "https://drive.google.com/uc?export=view&id=1YW66PhCn12sxLE1xrVZaMa-zpO3uktza",
@@ -18,6 +18,22 @@
         },
         {
             "id": 3,
+            "product": "Llavero cuadrado Milei 2023",
+            "description": "Dimensiones 40x60cm",
+            "image1": "https://drive.google.com/uc?export=view&id=1Z26cyBif06V5sjY0waZM6mr9-drh_DBs",
+            "image2": "https://drive.google.com/uc?export=view&id=1YW66PhCn12sxLE1xrVZaMa-zpO3uktza",
+            "price": 400
+        },
+        {
+            "id": 4,
+            "product": "Llavero V Milei 2023",
+            "description": "Dimensiones 60x60cm",
+            "image1": "https://drive.google.com/uc?export=view&id=1ZCYMhKhR6AJ60XSOtPovALrAIXLlKLhp",
+            "image2": "https://drive.google.com/uc?export=view&id=1YW66PhCn12sxLE1xrVZaMa-zpO3uktza",    
+            "price": 400
+        },
+        {
+            "id": 5,
             "product": "Llavero Víbora Milei 2023",
             "description": "Dimensiones 40x60cm",
             "image1": "https://drive.google.com/uc?export=view&id=1ZSEh9yg0bbD6O1QH9-ovN-ws5sxqSc34",
@@ -25,7 +41,15 @@
             "price": 400
         },
         {
-            "id": 4,
+            "id": 6,
+            "product": "Dije Milei 2023",
+            "description": "Ideal para colgar",
+            "image1": "https://drive.google.com/uc?export=view&id=1Y0RGvlCkf5ZZ9-S1X1uMmrU-UmB0aLzk",
+            "image2": "https://drive.google.com/uc?export=view&id=1Y0RGvlCkf5ZZ9-S1X1uMmrU-UmB0aLzk",
+            "price": 400
+        },
+        {
+            "id": 7,
             "product": "Mate Milei",
             "description": "Incluye bombilla, varios colores disponibles",
             "image1": "https://drive.google.com/uc?export=view&id=1WuRbfCMxHapaJ1eGKs8QWB3_mta-9Rgo",
@@ -33,15 +57,15 @@
             "price": 1600
         },
         {
-            "id": 5,
+            "id": 8,
             "product": "Lapicera letras chicas Milei",
             "description": "Varios colores disponibles",
-            "image1": "https://drive.google.com/uc?export=view&id=1XZFizQVYD_xq_7JtJOOEtxMLzoB58YID",
+            "image1": "https://drive.google.com/uc?export=view&id=1YUv28ecv2FCA3cQ3oMxNp2s4A0tCnmRH ",
             "image2": "https://drive.google.com/uc?export=view&id=1XSEnWQBJMUvITPIpQFwVVoYhd-V4pQ71",
             "price": 150
         },
         {
-            "id": 6,
+            "id": 9,
             "product": "Lapicera letras grandes Milei",
             "description": "Varios colores disponibles",
             "image1": "https://drive.google.com/uc?export=view&id=1XZFizQVYD_xq_7JtJOOEtxMLzoB58YID",

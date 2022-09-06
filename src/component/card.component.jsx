@@ -23,7 +23,7 @@ function CardComponent({products}) {
                 <div class="card-body"></div>
                     <h5 class="card-title text-primary">{products.product}</h5>
                     <p class="card-text">{products.description}</p>
-                    <p class="card-text text-secondary">${products.price}</p>
+                    <p class="card-text text-secondary fs-1">${products.price}</p>
                 </div>
             </div>
     );
