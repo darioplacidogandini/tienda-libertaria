@@ -7,7 +7,7 @@ const ProductsContainer = () => {
         <div className='container'>
             <div className="row">
             {products.map((products,id)=>(
-                <div key={id}>
+                <div key={id} className="col-12-sm">
                     <CardComponent products={products}/>
                 </div>
             ))}
