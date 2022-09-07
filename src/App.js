@@ -8,7 +8,7 @@ function App() {
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Partido_Libertario_%28Argentina%29.png/800px-Partido_Libertario_%28Argentina%29.png" 
         className="App-logo" alt="logo"/>
         <h1 className="text-primary">Tienda Libertaria Corrientes</h1>
-        <button className="btn btn-primary"><a className="link-dark" href="https://wa.me/+5493794141738">HACÉ TU PEDIDO</a></button>
+        <a className="btn btn-primary" href="https://wa.me/+5493794141738">HACÉ TU PEDIDO</a>
       </header>
       <ProductsContainer/>
     </div>
