@@ -22,7 +22,7 @@ function CardComponent({products}) {
                 </Carousel>
             <Card.Title variant="primary">{products.product}</Card.Title>
             <Card.Text>{products.description}</Card.Text>
-            <Card.Text>{products.measure}</Card.Text>
+            <Card.Text>{products.measures}</Card.Text>
             <Card.Text>${products.price}</Card.Text>
         </Card>
     );
