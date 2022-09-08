@@ -1,5 +1,5 @@
 import CardComponent from '../component/card.component'
-import data from '../../public/products.json'
+import data from '../assets/products.json'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
