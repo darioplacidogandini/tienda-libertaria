@@ -11,10 +11,3 @@
   height: 200px;
 }
 
-@media screen and (max-width: 320px) {
-    h1 {
-      font-size: 5px;
-    }
-}
-
-

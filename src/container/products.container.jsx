@@ -1,18 +1,21 @@
-import CardComponent from '../component/card.component';
+import CardComponent from '../component/card.component'
 import data from '../assets/products.json'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 const ProductsContainer = () => {
     const products = data.products;
     return (
-        <div className='container'>
-            <div className="row">
+        <Container fluid>
+            <Row>
             {products.map((products,id)=>(
-                <div key={id} className="col-12-sm">
+                <Col xs={12} sm={12} md={12} lg={6}>
                     <CardComponent products={products}/>
-                </div>
+                </Col>
             ))}
-            </div>
-        </div>
+            </Row>
+        </Container>
     )
 }
 
