@@ -20,8 +20,9 @@ function CardComponent({products}) {
                             />
                     </Carousel.Item>
                 </Carousel>
-            <Card.Title primary>{products.product}</Card.Title>
+            <Card.Title variant="primary">{products.product}</Card.Title>
             <Card.Text>{products.description}</Card.Text>
+            <Card.Text>{products.measure}</Card.Text>
             <Card.Text>${products.price}</Card.Text>
         </Card>
     );
