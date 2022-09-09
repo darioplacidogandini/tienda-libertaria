@@ -10,7 +10,7 @@ const ProductsContainer = () => {
         <Container fluid>
             <Row xs={1} md={2} lg={4}>
             {products.map((products,index)=>(
-                <Col key={index}>
+                <Col key={index} className="py-2">
                     <CardComponent products={products}/>
                 </Col>
             ))}
