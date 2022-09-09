@@ -20,10 +20,10 @@ function CardComponent({products}) {
                             />
                     </Carousel.Item>
                 </Carousel>
-            <Card.Title variant="primary">{products.product}</Card.Title>
+            <Card.Title className="text-primary">{products.product}</Card.Title>
             <Card.Text>{products.description}</Card.Text>
             <Card.Text>{products.measures}</Card.Text>
-            <Card.Text>${products.price}</Card.Text>
+            <Card.Text className="text-secondary fs-1">${products.price}</Card.Text>
         </Card>
     );
 }
