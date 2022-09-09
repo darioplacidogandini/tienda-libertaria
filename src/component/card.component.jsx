@@ -4,7 +4,7 @@ import  Carousel from "react-bootstrap/Carousel";
 function CardComponent({products}) {
     return (
         <Card>
-                <Carousel prevLabel="" nextLabel="" indicators={false}>
+                <Carousel prevLabel="" nextLabel="" indicators={false} interval={null}>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
