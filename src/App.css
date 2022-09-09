@@ -11,3 +11,14 @@
   height: 200px;
 }
 
+
+header {
+  font-weight: bolder;
+  font-size: 23px;
+}
+
+@media screen and (min-width: 500px) {
+  header {
+    font-size: 25px;
+  }
+}

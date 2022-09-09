@@ -8,9 +8,9 @@ const ProductsContainer = () => {
     const products = data.products;
     return (
         <Container fluid>
-            <Row>
-            {products.map((products)=>(
-                <Col xs={12} sm={12} md={12} lg={6}>
+            <Row xs={1} md={2} lg={4}>
+            {products.map((products,index)=>(
+                <Col key={index}>
                     <CardComponent products={products}/>
                 </Col>
             ))}

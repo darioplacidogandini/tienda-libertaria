@@ -1,10 +1,10 @@
 import Card from "react-bootstrap/Card";
-import  Carousel from "react-bootstrap/Carousel";
+import Carousel from "react-bootstrap/Carousel";
 
 function CardComponent({products}) {
     return (
         <Card>
-                <Carousel prevLabel="" nextLabel="" indicators={false} interval={null}>
+            <Carousel prevLabel="" nextLabel="" indicators={false} interval={null}>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
@@ -19,7 +19,7 @@ function CardComponent({products}) {
                             alt="Foto 2 del producto"
                             />
                     </Carousel.Item>
-                </Carousel>
+            </Carousel>
             <Card.Title className="text-primary fs-1">{products.product}</Card.Title>
             <Card.Text>{products.description}</Card.Text>
             <Card.Text>{products.measures}</Card.Text>
