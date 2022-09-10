@@ -19,6 +19,27 @@ function CardComponent({products}) {
                             alt="Foto 2 del producto"
                             />
                     </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={products.image3}
+                            alt="Foto 3 del producto"
+                            />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={products.image4}
+                            alt="Foto 4 del producto"
+                            />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={products.image5}
+                            alt="Foto 5 del producto"
+                            />
+                    </Carousel.Item>
             </Carousel>
             <Card.Title className="text-primary"><h3>{products.product}</h3></Card.Title>
             <Card.Text>{products.description}</Card.Text>
